@@ -1,4 +1,4 @@
-/* .container {
+.container {
     display: flex;
     gap: 100px;
   }
@@ -7,15 +7,15 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
   }
   
 .subtitle{
-    color:var(--btn)
+    color:#83764F;
   }
   
 .title{
-    font-size: 54px;
+    font-size: 35px;
   }
   
 .desc{
@@ -36,7 +36,8 @@
   }
   
 .box h1{
-    color: var(--btn);
+    color: #88A47C;
+    font-size: 23px;
   }
   
 .imgContainer {
@@ -58,4 +59,4 @@
       flex-direction: column;
       gap: 50px;
     }
-  } */
+  }
