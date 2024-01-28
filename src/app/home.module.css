@@ -9,11 +9,45 @@
     flex-direction: column;
     gap: 30px;
   }
+
+.sub_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 150px;
+}
+
+.sub_container_box{
+  padding: 30px;
+  background: rgba( 255, 255, 255, 0 );
+  box-shadow: 0 6px 16px 0 #B6C4B6;
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.sub_container_box h3{
+  font-weight: 700;
+}
+
+.headertag{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 45px 0px 25px 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
   
 .title{
-    font-size: 43px;
+    font-size: 45px;
   }
   
+.word{
+  color: #50623A;
+}
 .desc{
     font-size: 16px;
   }
@@ -86,11 +120,18 @@
     .buttons{
       justify-content: center;
     }
+
+    .sub_container{
+      /* display: flex;
+      flex-direction: column;
+      justify-content: center; */
+      gap: 50px;
+    }
   }
   
 @media (max-width: 768px) {
     .title {
-      font-size: 64px;
+      font-size: 54px;
     }
   
     .brands{
@@ -99,6 +140,13 @@
 
     .boxes{
       flex-direction: column;
+      gap: 20px;
+    }
+
+    .sub_container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       gap: 50px;
     }
   }

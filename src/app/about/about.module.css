@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    gap: 100px;
+    gap: 60px;
   }
   
 .textContainer {
@@ -12,6 +12,7 @@
   
 .subtitle{
     color:#83764F;
+    font-size: 20px;
   }
   
 .title{
