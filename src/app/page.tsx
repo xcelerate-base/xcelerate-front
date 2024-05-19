@@ -82,7 +82,7 @@ export default function Home() {
       <div className={styles.sub_container_4}>
         <div className={styles.sub_container_box_4}>
           <h3><CgNotes />Diverse Learning Resources</h3>
-          <p>Explore a vast repository of blogs and notes curated by experts in various fields. From in-depth articles to comprehensive study materials, we've got you covered.</p>
+          <p>Explore a vast repository of blogs and notes curated by experts in various fields. From in-depth articles to comprehensive study materials, we&apos;ve got you covered.</p>
         </div>
         <div className={styles.sub_container_box_4}>
           <h3><FaChalkboardTeacher />Stay Updated</h3>
@@ -111,7 +111,7 @@ export default function Home() {
                     <span className={styles.testimonial_user_job}>Student</span>
                   </div>
                 </div>
-                <p>The teacher's notes were like a roadmap, guiding us through the subject and making learning enjoyable.</p>
+                <p>The teacher&apos;s notes were like a roadmap, guiding us through the subject and making learning enjoyable.</p>
               </div>
               <div className={styles.testimonial_item}>
                 <div className={styles.testimonial_info}>
@@ -153,12 +153,3 @@ export default function Home() {
 
   </div>
 }
-
-
-// We are committed to delivering the highest quality service to our customers. Our unique approach combines expertise, innovation, and a customer-first mindset.
-
-// Expertise
-// Our team consists of industry experts with years of experience in their respective fields.
-
-// Innovation
-// We leverage the latest technologies and innovative
